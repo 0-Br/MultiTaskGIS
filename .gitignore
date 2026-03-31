@@ -1,0 +1,15 @@
+# Data
+2021LoveDA_urban224/
+
+# Pretrained weights (see README for download instructions)
+models/pretrained/pytorch_model.bin
+
+# Training outputs
+results/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/

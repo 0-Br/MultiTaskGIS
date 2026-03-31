@@ -1,0 +1,10 @@
+{
+    "name": "UNet",
+    "architectures": ["UNet"],
+    "model_type": "CNN",
+
+    "n_channels": 3,
+    "n_classes": 8,
+    "n_hidden": 64,
+    "bilinear": false
+}

@@ -1,0 +1,10 @@
+{
+    "name": "MAEtoUNet",
+    "architectures": ["MAE", "UNet"],
+    "model_type": "Vit",
+
+    "n_channels": 3,
+    "n_classes": 8,
+    "n_hidden": 64,
+    "bilinear": false
+}
