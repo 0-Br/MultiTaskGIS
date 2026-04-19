@@ -11,5 +11,15 @@ results/
 __pycache__/
 *.pyc
 
-# IDE
+# 系统文件
+.DS_Store
+._*
+Thumbs.db
+
+# 编辑器与 IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+\#*\#
