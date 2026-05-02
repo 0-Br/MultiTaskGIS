@@ -7,9 +7,11 @@ models/pretrained/pytorch_model.bin
 # Training outputs
 results/
 
-# Python
+# Python 编译产物
 __pycache__/
 *.pyc
+
+# Jupyter
 .ipynb_checkpoints/
 
 # 系统文件
