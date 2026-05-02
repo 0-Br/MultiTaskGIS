@@ -10,6 +10,7 @@ results/
 # Python
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
 
 # 系统文件
 .DS_Store
