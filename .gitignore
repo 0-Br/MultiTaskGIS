@@ -1,15 +1,19 @@
-# Data
+# 数据
 2021LoveDA_urban224/
 
-# Pretrained weights (see README for download instructions)
+# 预训练权重（下载见 README）
 models/pretrained/pytorch_model.bin
 
-# Training outputs
+# 项目生成文件
 results/
 
 # Python 编译产物
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
 
 # Jupyter
 .ipynb_checkpoints/
