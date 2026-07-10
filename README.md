@@ -88,6 +88,4 @@ Training hyperparameters are configured in `train.yaml`, using AdamW optimizer, 
 
 ## 声明
 
-本项目仅供学习交流参考，请勿直接复制用于课程作业提交。
-
-<!-- 课程名待补：本项目为清华大学《XX》课程研究项目 -->
+本项目为清华大学刘钊老师《测量学》课程研究项目，仅供学习交流参考，请勿直接复制用于课程作业提交。
