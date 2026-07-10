@@ -1,12 +1,14 @@
 # MultiTaskGIS
 
+**基于掩码自编码器（MAE）的多任务 GIS 模型 | Multi-task GIS model based on Masked Autoencoders (MAE)**
+
 ## 简介 / Introduction
 
 基于掩码自编码器（Masked Autoencoders, MAE）的多任务地理信息系统模型，面向遥感影像语义分割任务。本项目提出了一种基于迁移学习的多任务 GIS 范式：以预训练的 ViT-MAE 作为视觉编码器（冻结参数），UNet 作为分割解码器，在低数据需求和易部署的条件下实现了优异的分割性能。对比实验表明，该方法在语义分割任务上优于传统遥感影像处理范式。
 
 A multi-task geospatial information system model based on Masked Autoencoders (MAE) for remote sensing image semantic segmentation. This project proposes a transfer learning-based multi-task GIS paradigm: by leveraging a pretrained ViT-MAE as the vision encoder (frozen weights) and a UNet as the segmentation decoder, the model achieves strong performance with low data requirements and easy deployment. Comparative experiments demonstrate the superiority of this approach over traditional remote sensing image processing paradigms.
 
-## 模型架构 / Architecture
+## 方法 / Method
 
 本项目提供两种模型配置：
 
@@ -84,8 +86,8 @@ Training hyperparameters are configured in `train.yaml`, using AdamW optimizer, 
 - scikit-learn
 - NumPy, torchvision, Pillow
 
-## 作者 / Author
+## 声明
 
-刘滨瑞，清华大学
-Binrui Liu, Tsinghua University
-📧 lbr21@mails.tsinghua.edu.cn
+本项目仅供学习交流参考，请勿直接复制用于课程作业提交。
+
+<!-- 课程名待补：本项目为清华大学《XX》课程研究项目 -->
