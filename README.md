@@ -40,11 +40,10 @@ MAE 编码器使用 `facebook/vit-mae-base` 预训练权重（约 428MB，未包
 The MAE encoder uses the `facebook/vit-mae-base` pretrained weights (~428MB, not included in the repository). To set up:
 
 ```bash
-mkdir -p models/pretrained
-# 从 https://huggingface.co/facebook/vit-mae-base 下载以下文件
-# Download the following files from https://huggingface.co/facebook/vit-mae-base
-# 将 config.json、preprocessor_config.json 和 pytorch_model.bin 放入 models/pretrained/
-# Place config.json, preprocessor_config.json, and pytorch_model.bin into models/pretrained/
+# config.json 与 preprocessor_config.json 已随仓库提供，clone 后即在 models/pretrained/
+# config.json and preprocessor_config.json ship with the repository, already in models/pretrained/
+# 只需从 https://huggingface.co/facebook/vit-mae-base 下载 pytorch_model.bin 并放入该目录
+# Download only pytorch_model.bin from https://huggingface.co/facebook/vit-mae-base into that directory
 ```
 
 ## 训练 / Training
